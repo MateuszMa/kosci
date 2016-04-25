@@ -1,23 +1,31 @@
-ackage program1;
+package program2;
 
 import java.util.Random;
 
 public class RzutKoscmi {
-
-int[] wynik;	
+	int[] wynik;
 	
-
-	public RzutKoscmi(int[] w){
-	wynik = w;
-	
-	}
-	public int[] rzut(){
+	public RzutKoscmi(){
+		wynik = new int[5];
 		
-	for (int i=0 ; i<6; i++){
-		wynik[i]= Rng(6);
+	}
+	
+	public void rzut(){
+		for (int i=0 ; i<wynik.length; i++){
+		wynik[i]=Rng(6);
+		
 		}
-		return wynik;
 	}
+	
+	int Rng(int i){
+			
+			Random r=new Random();
+			return r.nextInt(i)+1;
+	}
+	int[] getWynik(){
+	return wynik;
 		
+	}
+	
 	
 }

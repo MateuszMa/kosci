@@ -1,5 +1,7 @@
 # kosci
-test java, gra w kosci
+<br> test java, gra w kosci
 lista plików
 readme.md
-kosci.java
+Main.java
+Rozgrywka.java
+RzutKoscmi.java

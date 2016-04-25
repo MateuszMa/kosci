@@ -85,14 +85,14 @@ public class Kosci {
 		String[] figury= new String[9];
 		figury[0]="nic";
 		figury[1]="para";
-		figury[2]="trójka";
+		figury[2]="trÃ³jka";
 		figury[3]="kareta";
 		figury[4]="poker";
 		figury[5]="dwie pary";
 		figury[6]="full";
-		figury[7]="ma³y strit";
-		figury[8]="du¿y strit";
-		/*//pêtla do testów
+		figury[7]="maÅ‚y strit";
+		figury[8]="duÅ¼y strit";
+		/*//pÄ™tla do testÃ³w
 		for (int i=0;i<5;i++){
 			player1Throw[i]=3;
 		}
@@ -109,8 +109,8 @@ public class Kosci {
 		int[] score2=Wynik(player2Throw, figury);
 		System.out.println("  "+figury[score1[0]]+"    "+figury[score2[0]]);
 		System.out.println("  "+score1[1]+"          "+score2[1]);
-		if (score1[1]>score2[1]){System.out.println("Wygra³ gracz 1");}
-		else {System.out.println("Wygra³ gracz 2");}
+		if (score1[1]>score2[1]){System.out.println("WygraÅ‚ gracz 1");}
+		else {System.out.println("WygraÅ‚ gracz 2");}
 	}
 		
 	

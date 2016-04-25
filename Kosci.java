@@ -3,7 +3,8 @@ package program1;
 import java.util.Random;
 import java.util.Arrays;
 
-public class Kosci {
+public class Kosci //extends RzutKoscmi  
+{
 
 		
 	public int[] Throw(){
